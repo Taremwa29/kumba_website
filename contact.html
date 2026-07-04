@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us — Kumba Education Center</title>
+<meta name="description" content="Get in touch with Kumba Education Center by email, phone, or WhatsApp, or send us an enquiry about training, research support, or studying in Uganda.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/all-fontawesome.min.css">
+<link rel="stylesheet" href="assets/css/kumba.css">
+<noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="index.html" aria-label="Kumba Education Center home">
+      <img src="assets/img/logo/kumba-logo.png" alt="Kumba Education Center">
+    </a>
+    <nav aria-label="Primary">
+      <ul class="site-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="nav-item--dropdown">
+          <a href="services.html">Services <i class="fa-solid fa-chevron-down" style="font-size:.6em"></i></a>
+          <ul class="dropdown">
+            <li><a href="training.html">Organisational Training</a></li>
+            <li><a href="research.html">Research Support</a></li>
+            <li><a href="study-in-uganda.html">Study in Uganda</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-cta">
+      <a class="btn btn--accent" href="contact.html">Get in touch</a>
+    </div>
+    <button class="nav-toggle" data-nav-toggle aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Contact Us</span>
+    <h1>Let's talk about how we can help</h1>
+    <p>Reach out about training, research support, or studying in Uganda — we'll connect you with the right specialists.</p>
+  </div>
+</section>
+
+<!-- ===== CONTACT + FORM ===== -->
+<section class="section section--alt reveal">
+  <div class="container">
+    <div class="grid grid--2" style="gap:2.5rem;align-items:start">
+
+      <!-- Channels -->
+      <div>
+        <span class="eyebrow">Reach us directly</span>
+        <h2 style="margin-bottom:1.5rem">Contact channels</h2>
+
+        <a class="card" href="https://wa.me/256765227828" style="display:flex;align-items:center;gap:1rem;margin-bottom:1rem;text-decoration:none">
+          <div class="card__icon" style="margin-bottom:0"><i class="fa-brands fa-whatsapp"></i></div>
+          <div><h3 style="margin-bottom:.15rem">WhatsApp</h3><p style="margin-bottom:0">Chat with us: +256 765 227828</p></div>
+        </a>
+
+        <a class="card" href="tel:+256765227828" style="display:flex;align-items:center;gap:1rem;margin-bottom:1rem;text-decoration:none">
+          <div class="card__icon" style="margin-bottom:0"><i class="fa-solid fa-phone"></i></div>
+          <div><h3 style="margin-bottom:.15rem">Call us</h3><p style="margin-bottom:0">+256 765 227828 &nbsp;·&nbsp; +256 775 264136</p></div>
+        </a>
+
+        <a class="card" href="mailto:info@kumbaeducenter.com" style="display:flex;align-items:center;gap:1rem;margin-bottom:1rem;text-decoration:none">
+          <div class="card__icon" style="margin-bottom:0"><i class="fa-solid fa-envelope"></i></div>
+          <div><h3 style="margin-bottom:.15rem">Email</h3><p style="margin-bottom:0">info@kumbaeducenter.com</p></div>
+        </a>
+
+        <div class="card" style="display:flex;align-items:center;gap:1rem;margin-bottom:1.5rem">
+          <div class="card__icon" style="margin-bottom:0"><i class="fa-solid fa-location-dot"></i></div>
+          <div><h3 style="margin-bottom:.15rem">Location</h3><p style="margin-bottom:0">Kampala, Uganda</p></div>
+        </div>
+
+        <div class="footer__socials" style="margin-top:0">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://wa.me/256765227828" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="card" style="padding:2rem">
+        <span class="eyebrow">Send an enquiry</span>
+        <h2 style="margin-bottom:1.5rem">Tell us what you need</h2>
+        <form id="enquiry-form">
+          <div class="form-group" style="margin-bottom:1rem">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name">
+          </div>
+          <div class="form-group" style="margin-bottom:1rem">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com">
+          </div>
+          <div class="form-group" style="margin-bottom:1rem">
+            <label for="programme">Which service are you interested in?</label>
+            <select id="programme" name="programme">
+              <option>Organisational Training</option>
+              <option>Research Support</option>
+              <option>Study in Uganda</option>
+              <option>General Enquiry</option>
+            </select>
+          </div>
+          <div class="form-group" style="margin-bottom:1.25rem">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Tell us a little about your needs…"></textarea>
+          </div>
+          <button type="submit" class="btn btn--accent" style="width:100%;justify-content:center">Send enquiry</button>
+          <p style="font-size:.82rem;margin-top:.85rem;text-align:center">This opens your email app with the message ready to send to info@kumbaeducenter.com.</p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <a class="brand" href="index.html" aria-label="Kumba Education Center home">
+          <img src="assets/img/logo/kumba-logo.png" alt="Kumba Education Center">
+        </a>
+        <p style="margin-top:1rem;max-width:34ch">Strengthening institutions, supporting research, and connecting people to education opportunities.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Programmes</h4>
+        <ul class="footer__links">
+          <li><a href="training.html">Organisational Training</a></li>
+          <li><a href="research.html">Research Support</a></li>
+          <li><a href="study-in-uganda.html">Study in Uganda</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul class="footer__contact">
+          <li><i class="fa-solid fa-envelope"></i><a href="mailto:info@kumbaeducenter.com">info@kumbaeducenter.com</a></li>
+          <li><i class="fa-solid fa-phone"></i><a href="tel:+256765227828">+256 765 227828</a></li>
+          <li><i class="fa-solid fa-phone"></i><a href="tel:+256775264136">+256 775 264136</a></li>
+          <li><i class="fa-solid fa-location-dot"></i>Kampala, Uganda</li>
+        </ul>
+        <div class="footer__socials">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://wa.me/256765227828" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bar">
+    <div class="container">
+      <p>&copy; 2026 Kumba Education Center. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/kumba.js"></script>
+</body>
+</html>
