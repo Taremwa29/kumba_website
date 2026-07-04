@@ -1,3 +1,12 @@
+// Hide the preloader once everything has loaded (with a safety fallback).
+function kumbaHidePreloader(){
+  const p=document.getElementById('preloader');
+  if(p)p.classList.add('is-done');
+}
+window.addEventListener('load',()=>setTimeout(kumbaHidePreloader,350));
+// Fallback: never let the preloader trap the page if 'load' is delayed.
+setTimeout(kumbaHidePreloader,4000);
+
 document.addEventListener('DOMContentLoaded',()=>{
   const t=document.querySelector('[data-nav-toggle]');
   if(t)t.addEventListener('click',()=>document.body.classList.toggle('nav-open'));
